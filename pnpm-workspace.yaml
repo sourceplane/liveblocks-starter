@@ -10,3 +10,8 @@ onlyBuiltDependencies:
   - esbuild
   - workerd
   - sharp
+
+# The kit's own override (its package.json `overrides`): one @types/react for
+# every package, so tldraw's and the editors' types agree with the app's.
+overrides:
+  "@types/react": 19.0.12
