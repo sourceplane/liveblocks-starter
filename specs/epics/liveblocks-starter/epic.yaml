@@ -9,7 +9,7 @@ metadata:
 spec:
   title: "Vercel's Liveblocks Starter Kit on Cloudflare Workers and D1"
   summary: "Vercel's Liveblocks Starter Kit — Liveblocks' Next.js Starter Kit: rich-text documents, notes, a whiteboard and a canvas edited together in real time, with comments, notifications, sharing and organizations — runs on Cloudflare Workers + Static Assets with its directory of users and organizations and its session secret in Cloudflare D1, its documents in a Liveblocks project the owner connects after the build, inside the Cirrus baseline's repository conventions, and becomes an Orun baseline that takes a new collaborative app from nothing to live on stage and prod in one landing."
-  state: started
+  state: completed
   milestones:
     - name: "LB0 — the spec"
       exitCriteria:

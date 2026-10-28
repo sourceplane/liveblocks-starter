@@ -10,7 +10,7 @@ the baseline makes a copy of it somebody else's app in one landing.**
 
 | | |
 |---|---|
-| Status | In progress — LB1 on main: the site runs on Workers |
+| Status | ✅ Shipped (`baseline-v1`) — proven offline in Baseline CI; not yet live (risk LB-A) |
 | Upstream | [liveblocks/liveblocks `starter-kits/nextjs-starter-kit`](https://github.com/liveblocks/liveblocks/tree/main/starter-kits/nextjs-starter-kit) (Apache-2.0), at `4786148` (2026-10-27) |
 | Reference | [turso-starter](https://github.com/sourceplane/turso-starter) — Next.js on OpenNext with D1, its migrations and bootstrap; [clerk-auth-starter](https://github.com/sourceplane/clerk-auth-starter) — a SaaS key as an optional secret pushed to the Worker |
 | Key | `LB` |
