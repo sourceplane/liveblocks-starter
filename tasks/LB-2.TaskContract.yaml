@@ -1,0 +1,20 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: LB-2
+  title: "The collaborative app on Workers and D1"
+spec:
+  goal: Liveblocks' Next.js Starter Kit runs as one Cloudflare Worker with Static Assets — its directory and session secret in D1, its documents in Liveblocks once connected — with its tests, and its README saying how it maps to Vercel
+  affects:
+    - apps/web
+    - packages/db
+    - tests/web
+    - tests/db
+    - tooling/wire
+    - pnpm-lock.yaml
+    - pnpm-workspace.yaml
+    - README.md
+  doneWhen:
+    - pnpm typecheck, lint, test and build are green, and the Worker is within Workers Free's 3 MiB gzipped
+    - wrangler dev serves the marketing page, the demo sign-in from D1 and the not-connected dashboard with no Liveblocks key, and reaches a stand-in Liveblocks API with one
+  gates: []
