@@ -4,7 +4,7 @@
 |---|---|---|
 | LB0 — the spec | ✅ | LB-1 |
 | LB1 — the collaborative app on Workers and D1 | ✅ | LB-2 |
-| LB2 — a baseline | planned | LB-3 |
+| LB2 — a baseline | ✅ | LB-3, tagged `baseline-v1` |
 
 ## Departures from the upstream kit
 
